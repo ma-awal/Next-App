@@ -2,10 +2,20 @@
  @tailwind components;
  @tailwind utilities;
  
-
- 
+*{box-sizing: border-box;}
+html,
 body {
+  margin: 0;
+  padding: 0;
   overflow-x: hidden;
 }
 
- 
+ .card{
+  @apply mb-4 block border border-gray-200 rounded-lg shadow-md
+ }
+ .primary-button{
+  @apply rounded  bg-amber-300 py-2 px-4 shadow outline-none hover:bg-amber-400 active:bg-amber-500
+ }
+ /* .primary-button {
+  @apply rounded bg-amber-300 py-2 px-4 shadow outline-none hover:bg-amber-400  active:bg-amber-500;
+} */
