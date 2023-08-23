@@ -8,4 +8,5 @@
 
 ## Start develoment
 
-1.
+1.Header Main and Footer part design
+2.ProductItems rendering
